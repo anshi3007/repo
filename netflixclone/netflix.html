@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-size: cover;
+            height: 95vh;
+            width: 100%;
+            background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/b85863b0-0609-4dba-8fe8-d0370b25b9ee/fdf508c8-97d0-42fd-a6f9-9bef6bf96934/IN-en-20230731-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+            top: 0%;
+            left: 0%;
+            background-repeat: no-repeat;
+            margin-top: -19px;
+            margin-left: 2px;
+            position: absolute;
+            z-index: -1;
+            opacity: 2;
+        }
+
+        #logo {
+            display: inline-block;
+        }
+
+        #foot1 {
+            height: 450px;
+            background-color: black;
+            margin-top: 680px;
+            margin-left: -6px;
+            margin-right: -10px;
+            border-top: 8px solid rgb(24, 23, 23);
+        }
+
+        #tv {
+            float: right;
+            margin-right: 200px;
+            margin-top: 30px;
+        }
+
+        .text {
+            padding-left: 238px;
+            padding-top: 106px;
+            display: inline-block;
+            width: 535px;
+            text-align: justify;
+          
+            color: white;
+        }
+
+        .font {
+            font-size: 3rem;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 900;
+        }
+
+        .font1 {
+            font-size: 1.5rem;
+            font-weight: 400;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        #foot2 {
+            height: 450px;
+            background-color: black;
+            margin-top: 680spx;
+            margin-left: -6px;
+            margin-right: -10px;
+            border-top: 8px solid rgb(24, 23, 23);
+        }
+
+        .text1 {
+            position: absolute;
+            color: #fff;
+    
+            width: 500px;
+            height: 200px;
+            margin-left: 800px;
+            margin-top: -330px;
+        }
+
+
+        #foot3 {
+            height: 450px;
+            background-color: black;
+            margin-top: 0px;
+            margin-left: -6px;
+            margin-right: -10px;
+            border-top: 8px solid rgb(24, 23, 23);
+        }
+
+        .text2 {
+            position: absolute;
+            padding-left: 238px;
+            padding-top: 106px;
+            display: inline-block;
+            width: 535px;
+            text-align: justify;
+           
+            color: white;
+        }
+
+
+        #foot4 {
+            position: absolute;
+            height: 450px;
+            background-color: black;
+            margin-top: 0px;
+            margin-left: -6px;
+            margin-right: -10px;
+            border-top: 8px solid rgb(24, 23, 23);
+        }
+
+        #text3 {
+            position: absolute;
+            color: #fff;
+          
+            width: 500px;
+            height: 200px;
+            margin-left: 850px;
+            margin-top: -380px;
+        }
+
+        #child-image {
+            padding-left: 159px;
+            margin-top: 40px;
+        }
+
+        #foot5 {
+            height: 450px;
+            background-color: black;
+            margin-top: 0px;
+            margin-left: -6px;
+            margin-right: -10px;
+            border-top: 8px solid rgb(24, 23, 23);
+        }
+
+        #foot6 {
+            height: 1000px;
+            background-color: black;
+            margin-top: 0px;
+            margin-left: -6px;
+            margin-right: -10px;
+            border-top: 8px solid rgb(24, 23, 23);
+
+        }
+
+        #boxes {
+            
+            width: 1200px;
+            margin-left: 200px;
+            margin-top: 30px;
+        }
+
+        .box {
+            width: 1100px;
+            height: 90px;
+            border: 2px solid black;
+            background-color: #333;
+            margin: auto;
+            margin: 8px;
+
+
+        }
+
+        #stranger {
+            padding-left: 80px;
+            display: inline-block;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        #goosebumps {
+            float: right;
+            margin-right: 200px;
+            margin-top: 30px;
+        }
+
+        #foot7 {
+            height: 490px;
+            background-color: black;
+            margin-top: 0px;
+            margin-left: -6px;
+            margin-right: -10px;
+            border-top: 8px solid rgb(24, 23, 23);
+        }
+
+        .btn {
+            margin: 10px;
+            float: right;
+            width: 80px;
+            color: #fff;
+            background-color: rgb(235, 8, 8);
+            height: 35px;
+            margin-right: 150px;
+            margin-top: -108px;
+            border: 2px solid rgb(235, 8, 8);
+            border-radius: 4px;
+
+        }
+
+        .btns {
+            float: right;
+            width: 200px;
+            color: #fff;
+            background-color: rgb(235, 8, 8);
+            height: 60px;
+            margin-right: 400px;
+            margin-top: -270px;
+            border: 2px solid rgb(235, 8, 8);
+            border-radius: 7px;
+        }
+
+        .btns1 {
+            float: right;
+            width: 200px;
+            color: #fff;
+            background-color: rgb(235, 8, 8);
+            height: 63px;
+            margin-right: 420px;
+            margin-top: 7px;
+            border: 2px solid rgb(235, 8, 8);
+            border-radius: 7px;
+        }
+
+        .watch {
+            font-size: 25px;
+            font-weight: 200;
+            color: white;
+            text-decoration: none;
+        }
+
+        #login1 {
+            font-size: 25px;
+            font-weight: 200;
+            color: white;
+            text-decoration: none;
+        }
+
+        .bton {
+
+            height: 30px;
+            width: 140px;
+            padding: -10px;
+            border: 3px solid grey;
+            margin-left: 1100px;
+            margin-top: -108px;
+            align-items: center;
+        }
+
+        #lang {
+            border: none;
+            margin-left: 30px;
+            height: 30px;
+            color: grey;
+            background-color: transparent;
+            
+        }
+
+        #icon {
+            margin-left: 10px;
+            display: inline-block;
+            padding-top: 3px;
+        }
+
+        #icon1 {
+            margin-left: 10px;
+            display: inline-block;
+            padding-top: 3px;
+        }
+
+        #lang1 {
+            border: none;
+            margin-left: 30px;
+            height: 30px;
+            color: grey;
+            background-color: transparent;
+           
+        }
+
+        .bton1 {
+
+            height: 30px;
+            width: 140px;
+            padding: -10px;
+            border: 2px solid grey;
+            border-radius: 5px;
+            margin-left: 295px;
+            margin-top: 16px;
+            align-items: center;
+        }
+
+        #login {
+            color: white;
+            text-decoration: none;
+        }
+
+        .content {
+            color: white;
+            text-align: center;
+            margin-top: 150px;
+        }
+
+        #show {
+            font-size: 3rem;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 2000;
+        }
+
+        .watch {
+            font-size: 1.5rem;
+            font-weight: 600;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+        .watch1 {
+            margin-top: 30px;
+            margin-left: 200px;
+            color: #fff;
+            font-size: 1.5rem;
+            font-weight: 600;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+        #email {
+            position: absolute;
+            margin: 7px;
+            width: 480px;
+            height: 50px;
+            border: 2px solid #333;
+            border-radius: 4px;
+            background-color: black;
+            opacity: 0.8;
+            color: azure;
+            padding: 10px 20px 0;
+            margin-left: 370px;
+
+        }
+
+        #email1 {
+            position: absolute;
+            margin: 7px;
+            width: 400px;
+            height: 50px;
+            border: 2px solid #333;
+            border-radius: 4px;
+            background-color: black;
+            opacity: 0.8;
+            color: azure;
+            padding: 10px 20px 0;
+            margin-left: 250px;
+
+        }
+
+        #address {
+            font-size: larger;
+        }
+
+        .ques {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #fff;
+            text-align: center;
+            margin-top: 60px;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+        .text4 {
+            color: white;
+            font-size: 1.5rem;
+            padding-left: 30px;
+            font-weight: 300;
+            padding-top: 10px;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+        .foot-container {
+            display: flex;
+            width: 1000;
+            justify-content: space-evenly;
+            margin-top: 30px;
+            margin-left: 8px;
+
+        }
+
+        .row1 {
+            color: grey;
+            text-decoration: 1px solid grey underline;
+        }
+
+        .row2 {
+            color: grey;
+            text-decoration: 1px solid grey underline;
+        }
+
+        .row3 {
+            color: grey;
+            text-decoration: 1px solid grey underline;
+        }
+
+        .call {
+            color: grey;
+            text-decoration: 1px solid grey underline;
+            margin-left: 287px;
+            margin-top: 100px;
+        }
+
+        .india {
+            color: grey;
+            margin-top: 20px;
+            margin-left: 295px;
+        }
+        
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="logo" class="text-pop-up-pop">
+            <img src="logo.png"
+                height="150px" width="200px">
+        </div> 
+        <div>
+            <button class="btn"><a id="login" href="netflix login.html" target="_blank">Sign In</a></button>
+        </div>
+        <div class="bton">
+            <div id="icon">
+                &#127760;
+            </div>
+            <select id="lang">
+                <label for="lang" id="language">
+                    <option value="">English</option>
+                    <option value="">हिन्दी</option>
+                </label>
+            </select>
+        </div>
+        <div class="content">
+            <h1 id="show">Unlimited movies, TV shows and more</h1>
+            <p class="watch">Watch anywhere. Cancel anytime.</p>
+            <p class="watch">Ready to watch? Enter your email to create or restart your membership.</p>
+        </div>
+        <div>
+            <input id="email" type="email" placeholder="Email Address">
+        </div>
+    </div>
+    <div>
+        <button class="btns"><a id="login1" href=".\netflix login.html" target="_blank">Get Started</a></button>
+    </div>
+
+
+    <footer id="foot1">
+        <div id="tv">
+            <img src="https://media.tenor.com/QJNoPeq9WmUAAAAC/netflix-intro-netflix.gif" height="400px" width="400px">
+        </div>
+        <div class="text">
+            <h1 class="font">Enjoy on your TV</h1>
+            <big class="font1">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and
+                more.</big>
+        </div>
+    </footer>
+    <footer id="foot2">
+        <div id="stranger">
+            <img src="https://media3.giphy.com/media/1vJtvwC0Nk4cvgbKqv/200w.webp?cid=ecf05e47r5jx3l22unhlii3qk9kp0g34miq90i4pou1bf48m&ep=v1_gifs_search&rid=200w.webp&ct=g"
+                height="350px" width="500px">
+
+        </div>
+        <div class="text1">
+            <h1 class="font"> Download your shows to watch offline</h1>
+            <big class="font1"> Save your favourites easily and always have something to watch.</big>
+        </div>
+    </footer>
+    <footer id="foot3">
+        <div id="goosebumps">
+            <img src="https://i.pinimg.com/originals/e0/50/10/e05010e6f4920b30394c261efc1b6b4d.gif" height="350px"
+                width="500px">
+        </div>
+        <div class="text2">
+            <h1 class="font">Watch everywhere</h1>
+            <big class="font1">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</big>
+        </div>
+    </footer>
+    <footer id="foot4">
+        <img id="child-image"
+            src="https://occ-0-3217-2186.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d"
+            height="400px">
+        <div id="text3">
+            <h1 class="font">Create profiles for kids</h1>
+            <big class="font1">Send children on adventures with their favourite characters in a space made just for
+                them—free with your membership.</big>
+        </div>
+    </footer>
+    <footer id="foot5">
+
+    </footer>
+    <footer id="foot6">
+        <div class="ques">Frequently Asked Questions</div>
+        <div id="boxes">
+            <div class="box">
+                <p class="text4">What is Netflix?</p>
+
+            </div>
+            <div class="box">
+                <p class="text4">How much does Netflix cost?</p>
+            </div>
+            <div class="box">
+                <p class="text4">Where can I watch?</p>
+            </div>
+            <div class="box">
+                <p class="text4">How do I cancel?</p>
+            </div>
+            <div class="box">
+                <p class="text4">What can I watch on Netflix?</p>
+            </div>
+            <div class="box">
+                <p class="text4">Is Netflix good for kids?</p>
+            </div>
+            <div>
+                <p class="watch1">Ready to watch? Enter your email to create or restart your membership.</p>
+            </div>
+            <div>
+                <input id="email1" type="email" placeholder="Email Address">
+            </div>
+        </div>
+        <div>
+            <button class="btns1"><a id="login1" href=".\netflix login.html" target="_blank">Get Started</a></button>
+        </div>
+        </div>
+    </footer>
+    <footer id="foot7">
+        <div class="call">
+            <p>Questions? Call <span class="no"> 000-800-919-1694</span></p>
+        </div>
+        <div class="foot-container">
+            <div class="row1">
+                <p>FAQ</p>
+                <p>Media Centre</p>
+                <p>Ways to Watch</p>
+                <p>Cookie Preferences</p>
+                <p>Speed Test</p>
+
+            </div>
+            <div class="row2">
+                <p>Help Centre</p>
+                <p>Investor Relations</p>
+                <p> Terms of Use</p>
+                <p>Corporate Information</p>
+                <p>Legal Notices</p>
+            </div>
+            <div class="row3">
+                <p>Accounts</p>
+                <p>Jobs</p>
+                <p>Privacy</p>
+                <p>Contact Us</p>
+                <p>Only on Netflix</p>
+            </div>
+        </div>
+        <div class="bton1">
+            <div id="icon1">
+                &#127760;
+            </div>
+            <select id="lang1">
+                <label for="lang" id="language">
+                    <option value="">English</option>
+                    <option value="">हिन्दी</option>
+                </label>
+            </select>
+        </div>
+        <div class="india">
+            <p>Netflix India</p>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>
